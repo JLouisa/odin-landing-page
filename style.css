@@ -1,9 +1,33 @@
 
 body {
 display: flex;
-flex-direction: column;
+padding: 0;
+margin: 0;
 }
 
+.layoutone, .layouttwo, .layoutthree {
+/* border: 2px solid red; /* debug */
+}
+
+.layoutone {
+    flex-shrink: 1;
+    flex-grow: 1;
+    background-color: black;
+}
+
+.layouttwo {
+    flex-shrink: 0;
+    flex-grow: 2;
+    flex-basis: auto;
+    min-width: 900px;
+    max-width: 900px;
+}
+
+.layoutthree {
+    flex-shrink: 1;
+    flex-grow: 1;
+    background-color: black;
+}
 
 /* -------- Navigation Header -------- */
 
@@ -149,7 +173,6 @@ div.author {
     display: flex;
     justify-content: space-between;
     padding: 6em 0;
-    border: 2px solid red;
     background-color: #3882F6;
     margin: 50px;
 }
