@@ -140,3 +140,29 @@ div.author {
     text-align: end;
     font-style: none;
 }
+
+/* -------- Call to Action -------- */
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    padding: 6em 0;
+    border: 2px solid red;
+    background-color: #3882F6;
+    margin: 50px;
+}
+
+.ctagroup {
+    background-color: #3882F6;
+    color: white;
+    margin-left: 10px;
+}
+
+.signup.bottom {
+    border: 2px solid white;
+    margin-right: 10px;
+}
+
+.text {
+ font-weight: 700;
+}
