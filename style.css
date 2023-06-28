@@ -33,10 +33,6 @@ margin: 0;
 
 /* -------- Navigation Header -------- */
 
-* {
-    font-family: roboto;
-}
-
 .navbar {
     display: flex;
     color: white;
@@ -87,19 +83,16 @@ ul {
     justify-content: center;
     padding: 0 6em 6em 6em;
     gap: 3em
-
 }
 
 .title {
     font-size: 48px;
     font-weight: 900;
+    color: #F9FAF8;
 }
 
 .textone {
     font-size: 18px;
-}
-
-.title, .textone {
     color: #E5E7EB;
 }
 
@@ -116,13 +109,14 @@ button {
     background-color: #3882F6;
     color: white;
     border: none;
-    padding: 2px 1em 2px 1em;
+    padding: 4px 2em 4px 2em;
+    border-radius: 5px;
 }
 
 /* -------- content -------- */
 .content {
     display: flex;
-    gap: 1em;
+    gap: 2em;
     padding-bottom: 2em;
     justify-content: center;
     background-color: white;
@@ -148,11 +142,11 @@ gap: 2em;
 }
 
 .pone, .ptwo, .pthree, .pfour {
-    width: 140px;
+    width: 150px;
     text-align: center;
 }
 
-/* -------- content -------- */
+/* -------- Quote -------- */
 .quote {
     padding: 2em;
     background-color: #E5E7EB;
@@ -174,27 +168,28 @@ div.author {
 .cta {
     display: flex;
     justify-content: space-between;
-    padding: 6em 0;
+    padding: 3em 0;
     background-color: #3882F6;
     margin: 50px;
+    border-radius: 5px;
 }
 
 .ctagroup {
-    background-color: #3882F6;
+/*    background-color: #3882F6; */
     color: white;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 
 .signup.bottom {
     border: 2px solid white;
-    margin-right: 10px;
+    margin-right: 50px;
 }
 
 .text {
  font-weight: 700;
 }
 
-/* -------- Call to Action -------- */
+/* -------- Footer -------- */
 
 .footer {
     background-color: #1F2937;
