@@ -1,0 +1,50 @@
+
+/* body {
+padding: 0 425px;
+border: 2px solid red;
+} */
+
+/* -------- Navigation Header -------- */
+.navbar {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+}
+.navlinks {
+    display: flex;
+    gap: 1em;
+    padding-right: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+
+}
+.navbar img {
+    width: auto;
+    height: 50px;
+}
+
+.logo {
+    padding: 5px;
+    margin-left: 5em;
+}
+
+/* -------- Hero -------- */
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.title, .textone {
+    color: #E5E7EB;;
+}
