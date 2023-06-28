@@ -1,17 +1,30 @@
 
-/* body {
-padding: 0 425px;
-border: 2px solid red;
-} */
+body {
+display: flex;
+flex-direction: column;
+}
 
 /* -------- Navigation Header -------- */
+
+* {
+    font-family: roboto;
+}
+
 .navbar {
     display: flex;
     color: white;
     justify-content: space-between;
     align-items: center;
     background-color: #1F2937;
+    padding-bottom: 6em;
 }
+
+.headert {
+    color: #F9FAF8;
+    font-size: 24px;
+    padding-left: 4em;
+}
+
 .navlinks {
     display: flex;
     gap: 1em;
@@ -41,10 +54,89 @@ ul {
 /* -------- Hero -------- */
 
 .hero {
-    background-color: #1F2937;
     display: flex;
+    background-color: #1F2937;
+    padding-bottom: 6em;
+    justify-content: center;
+    padding: 0 6em 6em 6em;
+    gap: 3em
+
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.textone {
+    font-size: 18px;
 }
 
 .title, .textone {
-    color: #E5E7EB;;
+    color: #E5E7EB;
+}
+
+.puno {
+    flex-basis: 400px;
+}
+
+.imageone {
+    width: 300px;
+    height: auto;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 2px 1em 2px 1em;
+}
+
+/* -------- content -------- */
+.content {
+    display: flex;
+    gap: 1em;
+    padding-bottom: 2em;
+    justify-content: center;
+}
+
+.tcontent {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.icontent {
+display: flex;
+gap: 2em;
+}
+
+.ione, .itwo, .ithree, .ifour {
+    width: 125px;
+    height: 125px;
+}
+
+.pone, .ptwo, .pthree, .pfour {
+    width: 140px;
+    text-align: center;
+}
+
+/* -------- content -------- */
+.quote {
+    padding: 2em;
+    background-color: #E5E7EB;
+    font-size: 36px;s
+    color: #1F2937;
+}
+
+.tquote {
+    font-style: italic;
+}
+
+div.author {
+    text-align: end;
+    font-style: none;
 }
