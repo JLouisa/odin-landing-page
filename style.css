@@ -4,6 +4,7 @@ display: flex;
 flex-direction: column;
 }
 
+
 /* -------- Navigation Header -------- */
 
 * {
@@ -98,6 +99,7 @@ button {
     gap: 1em;
     padding-bottom: 2em;
     justify-content: center;
+    background-color: white;
 }
 
 .tcontent {
@@ -165,4 +167,13 @@ div.author {
 
 .text {
  font-weight: 700;
+}
+
+/* -------- Call to Action -------- */
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: white;
+    padding: 2em 0;
 }
